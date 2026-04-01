@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RNK PHIOTOFRAMES</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>RNK PHIOTOFRAMES</h1>
+  <p>Professional Photo Template Editor</p>
+</header>
+
+<div class="controls">
+  <input type="file" id="upload" multiple accept="image/*">
+  <label>Zoom:</label>
+  <input type="range" id="zoom" min="0.5" max="2" step="0.1" value="1">
+  <button onclick="downloadImage()">Download</button>
+</div>
+
+<canvas id="canvas" width="794" height="1123"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
